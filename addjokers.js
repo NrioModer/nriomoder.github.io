@@ -18,7 +18,8 @@ let jokers = [
   {
     name: "Flying Skull",
     text: [
-      "Create a {C:spectral}Spectral{} card for every {C:attention}9{C:inactive} [9]{} discarded 9 {C:inactive}(Must have room)",
+      "Create a {C:spectral}Spectral{} card for every {C:attention}9{C:inactive} [9]{} discarded 9",
+      "{C:inactive}(Must have room)"
     ],
     image_url: "img/j_flying_skull.png",
     rarity: "Uncommon"
