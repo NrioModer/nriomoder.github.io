@@ -1,132 +1,141 @@
 let jokers = [
   {
-    name: "Joker",
+    name: "Big Stick",
     text: [
-      "{C:mult}+4{} Mult"
+      "Each {C:attention}8{} gain {C:chips}+16{} Chips when scored.",
+      "Increases by {C:chips}+16{} Chips for scored {C:attention}8{}",
+      "{C:inactive}(Resets after each hand played)"
     ],
-    image_url: "img/j_joker.png",
-    rarity: "Common"
-  }
-]
-
-// works the same. 
-let consumables = [
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Tarot"
+    image_url: "img/j_big_stick.png",
+    rarity: "Uncommon"
   },
   {
-    name: "Joker",
+    name: "Dust Cloud",
     text: [
-      "{C:mult}+4{} Mult"
+      "Each {C:attention}face{} card can't be",            
+      "{C:red}debuffed{} or {C:red}faced down{}"  
     ],
-    image_url: "img/j_joker.png",
+    image_url: "img/j_dust_cloud.png",
+    rarity: "Uncommon"
+  },
+  {
+    name: "Flying Skull",
+    text: [
+      "Create a {C:spectral}Spectral{} card for",
+      "every {C:attention}9{C:inactive} [9]{} discarded 9",
+      "{C:inactive}(Must have room)",
+    ],
+    image_url: "img/j_flying_skull.png",
+    rarity: "Uncommon"
+  },
+    {
+    name: "Hammer",
+    text: [
+      "For each scored {C:attention}10{}",
+      "gain {X:attention,C:white}X0.9{} Blind amount"      
+    ],
+    image_url: "img/j_hammer.png",
+    rarity: "Uncommon"
+  },
+  {
+    name: "Lament",
+    text: [
+      "Give {C:attention}1{} tag for every {C:attention}4 Aces{} in full deck",
+      "{C:inactive}(Currently 0 Aces, 0 tags)"
+    ],
+    image_url: "img/j_lament.png",
     rarity: "Planet"
   },
   {
-    name: "Joker",
+    name: "Precious egg",
     text: [
-      "{C:mult}+4{} Mult"
+      "After {C:attention}6{} rounds,",
+      "sell this card to create",
+      "a random {C:red}Rare{} {C:attention}joker{}",
+      "{C:inactive}(Currently {C:attention}0{C:inactive}/6)" 
     ],
-    image_url: "img/j_joker.png",
-    rarity: "Spectral"
+    image_url: "img/j_precious_egg.png",
+    rarity: "Common"
+  },
+  {
+    name: "Scrap Metal",
+    text: [
+      "{C:chips,s:1.1}+60{} Chips. {C:red}Self destructs{} if any",            
+      "card or joker is sold or destroyed"   
+    ],
+    image_url: "img/j_scrap_metal.png",
+    rarity: "Common"
+  },
+  {
+    name: "Screwdriver",
+    text: [
+      "Retrigger each {C:attention}6{} that are",
+      "played or held in hand"    
+    ],
+    image_url: "img/j_screwdriver.png",
+    rarity: "Uncommon"
+  },
+  {
+    name: "Shovel",
+    text: [
+      "{C:red}+1{} discard if played",
+      "hand contains a {C:attention}2{}" 
+    ],
+    image_url: "img/j_shovel.png",
+    rarity: "Uncommon"
+  },
+    {
+    name: "Spanner",
+    text: [
+      "When {C:attention}blind{} is selected with 2 or more planet,",            
+      "destroy them and create a {C:spectral}Black Hole{}"          
+    ],
+    image_url: "img/j_spanner.png",
+    rarity: "Uncommon"
+  },
+  {
+    name: "Toxic Ooze",
+    text: [
+      "{C:mult}+3{} Mult when each played",             		
+      "{C:attention}3{} is scored, halves when",         
+      "Boss Blind is defeated",
+      "{C:inactive}(Curently {C:mult}+6 {C:inactive}Mult)" 
+    ],
+    image_url: "img/j_toxic_ooze.png",
+    rarity: "Planet"
+  },
+  {
+    name: "Venus Fly Trap",
+    text: [
+      "Each scored {C:attention}7{} has a {C:green}1 in 2{}",
+      "chance to draw an extra card" 
+    ],
+    image_url: "img/j_venus_fly_trap.png",
+    rarity: "Uncommon"
+  },
+  {
+    name: "Whip",
+    text: [
+      "Add {C:purple}Enhanced 4{} per hand remaining,",
+      "then {C:red}lose all hand{} by end of the round"  
+    ],
+    image_url: "img/j_whip.png",
+    rarity: "Uncommon"
   },
 ]
 
-let card_modifications = [
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Enhancement"
-  },
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Edition"
-  },
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/sticker_example.png",
-    rarity: "Seal"
-  },
-]
+// works the same. 
+let consumables = []
 
-let decks = [
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Deck"
-  },
-]
+let card_modifications = []
 
-let stickers = [
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/sticker_example.png",
-    rarity: "Sticker"
-  },
-]
+let decks = []
 
-let blinds = [
-  {
-    name: "The Wall",
-    text: [
-      "Extra large blind",
-      "{C:inactive}({C:red}4x{C:inactive} Base for {C:attention}$$$$${C:inactive})",
-      "{C:inactive}(Appears from Ante 2)"
-    ],
-    image_url: "img/the_wall.png",
-    rarity: "Boss Blind"
-  },
-  {
-    name: "Violet Vessel",
-    text: [
-      "Very large blind",
-      "{C:inactive}({C:red}6x{C:inactive} Base for {C:attention}$$$$$$$${C:inactive})",
-      "{C:inactive}(Appears from Ante 8)"
-    ],
-    image_url: "img/violet_vessel.png",
-    rarity: "Showdown"
-  },
-]
+let stickers = []
 
-let shop_items = [
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Voucher"
-  },
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Pack"
-  },
-]
+let blinds = []
+
+let shop_items = []
 
 let cols = {
   
