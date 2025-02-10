@@ -37,7 +37,7 @@ let jokers = [
       "Give {C:attention}1{} tag for every {C:attention}4 Aces{} in full deck {C:inactive}(Currently 0 Aces, 0 tags)"
     ],
     image_url: "img/j_lament.png",
-    rarity: "Planet"
+    rarity: "Uncommon"
   },
   {
     name: "Precious egg",
@@ -85,7 +85,7 @@ let jokers = [
       "{C:mult}+3{} Mult when each played {C:attention}3{} is scored, halves when Boss Blind is defeated {C:inactive}(Curently {C:mult}+6 {C:inactive}Mult)" 
     ],
     image_url: "img/j_toxic_ooze.png",
-    rarity: "Planet"
+    rarity: "Uncommon"
   },
   {
     name: "Venus Fly Trap",
