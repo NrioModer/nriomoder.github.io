@@ -104,6 +104,30 @@ let jokers = [
     image_url: "img/j_whip.png",
     rarity: "Uncommon"
   },
+  {
+    name: "Sword",
+    text: [
+      "{C:chips,s:1.1}+Between 10 to 60{} Chips." 
+    ],
+    image_url: "img/j_sword.png",
+    rarity: "Common"
+  },
+  {
+    name: "Dagger",
+    text: [
+      "Each {C:attention}Card{} held in hand gives {C:mult}+3{} Mult"   
+    ],
+    image_url: "img/j_dagger.png",
+    rarity: "Common"
+  },
+  {
+    name: "Juggling Ball",
+    text: [
+      "When {C:attention}Boss Blind{} is defeated, give {C:money}$2{} and {C:attention,T:tag_juggle}Juggle Tag"  
+    ],
+    image_url: "img/j_juggling_ball.png",
+    rarity: "Common"
+  },
 ]
 
 // works the same. 
