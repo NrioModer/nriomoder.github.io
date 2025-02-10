@@ -1,112 +1,112 @@
 let jokers = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Common"
-  // }
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Common"
+  }
 ]
 
 // works the same. 
 let consumables = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Tarot"
-  // },
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Planet"
-  // },
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Spectral"
-  // },
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Tarot"
+  },
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Planet"
+  },
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Spectral"
+  },
 ]
 
 let card_modifications = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Enhancement"
-  // },
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Edition"
-  // },
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/sticker_example.png",
-  //   rarity: "Seal"
-  // },
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Enhancement"
+  },
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Edition"
+  },
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/sticker_example.png",
+    rarity: "Seal"
+  },
 ]
 
 let decks = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Deck"
-  // },
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Deck"
+  },
 ]
 
 let stickers = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/sticker_example.png",
-  //   rarity: "Sticker"
-  // },
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/sticker_example.png",
+    rarity: "Sticker"
+  },
 ]
 
 let blinds = [
-  // {
-  //   name: "The Wall",
-  //   text: [
-  //     "Extra large blind",
-  //     "{C:inactive}({C:red}4x{C:inactive} Base for {C:attention}$$$$${C:inactive})",
-  //     "{C:inactive}(Appears from Ante 2)"
-  //   ],
-  //   image_url: "img/the_wall.png",
-  //   rarity: "Boss Blind"
-  // },
-  // {
-  //   name: "Violet Vessel",
-  //   text: [
-  //     "Very large blind",
-  //     "{C:inactive}({C:red}6x{C:inactive} Base for {C:attention}$$$$$$$${C:inactive})",
-  //     "{C:inactive}(Appears from Ante 8)"
-  //   ],
-  //   image_url: "img/violet_vessel.png",
-  //   rarity: "Showdown"
-  // },
+  {
+    name: "The Wall",
+    text: [
+      "Extra large blind",
+      "{C:inactive}({C:red}4x{C:inactive} Base for {C:attention}$$$$${C:inactive})",
+      "{C:inactive}(Appears from Ante 2)"
+    ],
+    image_url: "img/the_wall.png",
+    rarity: "Boss Blind"
+  },
+  {
+    name: "Violet Vessel",
+    text: [
+      "Very large blind",
+      "{C:inactive}({C:red}6x{C:inactive} Base for {C:attention}$$$$$$$${C:inactive})",
+      "{C:inactive}(Appears from Ante 8)"
+    ],
+    image_url: "img/violet_vessel.png",
+    rarity: "Showdown"
+  },
 ]
 
 let shop_items = [
