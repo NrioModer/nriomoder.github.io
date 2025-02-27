@@ -151,7 +151,7 @@ let jokers = [
     text: [
       "For each card {C:attention}played and scored{}, add a {C:attention}Temporary{} copy of the card to deck" 
     ],
-    image_url: "img/balala_jokers/part_${randomNumber}.png",
+    image_url: 'img/balala_jokers/part_${randomNumber}.png',
     rarity: "Uncommon"
   },
 ]
