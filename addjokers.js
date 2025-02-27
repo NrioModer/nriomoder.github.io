@@ -154,6 +154,23 @@ let jokers = [
     image_url: "img/balala_jokers/part_" + randomNumber + ".png",
     rarity: "Uncommon"
   },
+  {
+    name: "Bear Potion",
+    text: [
+       "When sold, destroy a random joker with {C:attention}rarity above Uncommon{} and create {C:attention}The Bear{}."
+    ],
+    image_url: "img/bear_potion.png",
+    rarity: "Rare"
+  },
+  {
+    name: "The Bear",
+    text: [
+       "{X:mult,C:white} X6 {} Mult"
+    ],
+    image_url: "img/bear.png",
+    soul: true,
+    rarity: "Legendary"
+  },
 ]
 
 // works the same. 
