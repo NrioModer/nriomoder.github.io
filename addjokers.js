@@ -141,7 +141,7 @@ let jokers = [
   {
     name: "Concentration",
     text: [
-      "If the used hands are {C:attention}equal{} to the previous ones, it gains {C:money}+$#1#{} for each used hands {C:inactive}(#2#/#3#)" 
+      "If the used hands are {C:attention}equal{} to the previous ones, it gains {C:money}+2{} for each used hands {C:inactive}(0/4)" 
     ],
     image_url: "img/j_concentration.png",
     rarity: "Common"
@@ -151,7 +151,7 @@ let jokers = [
     text: [
       "For each card {C:attention}played and scored{}, add a {C:attention}Temporary{} copy of the card to deck" 
     ],
-    image_url: 'img/balala_jokers/part_${randomNumber}.png',
+    image_url: "img/balala_jokers/part_" + randomNumber + ".png",
     rarity: "Uncommon"
   },
 ]
