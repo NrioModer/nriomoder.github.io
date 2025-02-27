@@ -159,15 +159,15 @@ let jokers = [
     text: [
        "When sold, destroy a random joker with {C:attention}rarity above Uncommon{} and create {C:attention}The Bear{}."
     ],
-    image_url: "img/bear_potion.png",
+    image_url: "img/j_bear_potion.png",
     rarity: "Rare"
   },
   {
     name: "The Bear",
     text: [
-       "{X:mult,C:white} X6 {} Mult"
+       "{X:mult,C:white}X6{} Mult"
     ],
-    image_url: "img/bear.png",
+    image_url: "img/j_bear.png",
     soul: true,
     rarity: "Legendary"
   },
