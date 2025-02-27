@@ -1,3 +1,5 @@
+const randomNumber = Math.floor(Math.random() * 141);
+
 let jokers = [
   {
     name: "Big Stick",
@@ -5,7 +7,6 @@ let jokers = [
       "Each {C:attention}8{} gain {C:chips}+16{} Chips when scored. Increases by {C:chips}+16{} Chips for scored {C:attention}8{} {C:inactive}(Resets after each hand played)"
     ],
     image_url: "img/j_big_stick.png",
-    soul: true,
     rarity: "Uncommon"
   },
   {
@@ -128,6 +129,30 @@ let jokers = [
     ],
     image_url: "img/j_juggling_ball.png",
     rarity: "Common"
+  },
+  {
+    name: "Poison Needle",
+    text: [
+      "{C:mult}+1{} Base Mult for played hand Limit {C:attention}3{C:inactive} [3]{} hand per round."     
+    ],
+    image_url: "img/j_poison_needle.png",
+    rarity: "Common"
+  },
+  {
+    name: "Concentration",
+    text: [
+      "If the used hands are {C:attention}equal{} to the previous ones, it gains {C:money}+$#1#{} for each used hands {C:inactive}(#2#/#3#)" 
+    ],
+    image_url: "img/j_concentration.png",
+    rarity: "Common"
+  },
+  {
+    name: "Duplicate",
+    text: [
+      "For each card {C:attention}played and scored{}, add a {C:attention}Temporary{} copy of the card to deck" 
+    ],
+    image_url: "img/balala_jokers/part_${randomNumber}.png",
+    rarity: "Uncommon"
   },
 ]
 
