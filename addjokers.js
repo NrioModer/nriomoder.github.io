@@ -141,7 +141,7 @@ let jokers = [
   {
     name: "Concentration",
     text: [
-      "If the used hands are {C:attention}equal{} to the previous ones, it gains {C:money}+2{} for each used hands {C:inactive}(0/4)" 
+      "If the used hands are {C:attention}equal{} to the previous ones, it gains {C:money}+$2{} for each used hands {C:inactive}(0/4)" 
     ],
     image_url: "img/j_concentration.png",
     rarity: "Common"
