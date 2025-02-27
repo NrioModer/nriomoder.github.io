@@ -5,6 +5,7 @@ let jokers = [
       "Each {C:attention}8{} gain {C:chips}+16{} Chips when scored. Increases by {C:chips}+16{} Chips for scored {C:attention}8{} {C:inactive}(Resets after each hand played)"
     ],
     image_url: "img/j_big_stick.png",
+    soul: true,
     rarity: "Uncommon"
   },
   {
