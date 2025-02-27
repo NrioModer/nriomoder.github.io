@@ -133,7 +133,7 @@ let jokers = [
   {
     name: "Poison Needle",
     text: [
-      "{C:mult}+1{} Base Mult for played hand Limit {C:attention}3{C:inactive} [3]{} hand per round."     
+      "{C:mult}+1{} Base Mult for played hand. Limit {C:attention}3{C:inactive} [3]{} hand per round."     
     ],
     image_url: "img/j_poison_needle.png",
     rarity: "Common"
