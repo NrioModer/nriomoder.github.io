@@ -180,7 +180,16 @@ let card_modifications = []
 
 let decks = []
 
-let stickers = []
+let stickers = [
+     {
+       name: "Temporary",
+       text: [
+          "It's {C:attention}destroyed{} after the blind"
+       ],
+       image_url: "img/sticker_temporary.png",
+       rarity: "Sticker"
+     },
+]
 
 let blinds = []
 
