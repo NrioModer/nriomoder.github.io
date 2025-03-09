@@ -249,16 +249,6 @@ let decks = [
   // },
 ]
 
-let stickers = [
-     {
-       name: "Temporary",
-       text: [
-          "It's {C:attention}destroyed{} after the blind"
-       ],
-       image_url: "img/sticker_temporary.png",
-       rarity: "Sticker"
-     },
-]
 
 let blinds = [
   {
@@ -271,6 +261,17 @@ let blinds = [
     image_url: "img/the_bully.png",
     rarity: "Boss Blind"
   },
+]
+
+let stickers = [
+     {
+       name: "Temporary",
+       text: [
+          "It's {C:attention}destroyed{} after the blind"
+       ],
+       image_url: "img/sticker_temporary.png",
+       rarity: "Sticker"
+     },
 ]
 
 let shop_items = []
