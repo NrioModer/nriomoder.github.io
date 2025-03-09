@@ -262,20 +262,12 @@ let stickers = [
 
 let blinds = [
   {
-    name: "Joker",
+    name: "The Bully",
     text: [
       "{C:mult}+4{} Mult"
     ],
-    image_url: "img/j_joker.png",
-    rarity: "Voucher"
-  },
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Pack"
+    image_url: "img/the_bully.png",
+    rarity: "Boss Blind"
   },
 ]
 
