@@ -184,22 +184,100 @@ let jokers = [
 ]
 
 // works the same. 
-let consumables = []
-
-let card_modifications = []
-
-let stickers = [
-     {
-       name: "Temporary",
-       text: [
-          "It's {C:attention}destroyed{} after the blind"
-       ],
-       image_url: "img/sticker_temporary.png",
-       rarity: "Sticker"
-     },
+let consumables = [
+  // {
+  //   name: "Joker",
+  //   text: [
+  //     "{C:mult}+4{} Mult"
+  //   ],
+  //   image_url: "img/j_joker.png",
+  //   rarity: "Tarot"
+  // },
+  // {
+  //   name: "Joker",
+  //   text: [
+  //     "{C:mult}+4{} Mult"
+  //   ],
+  //   image_url: "img/j_joker.png",
+  //   rarity: "Planet"
+  // },
+  // {
+  //   name: "Joker",
+  //   text: [
+  //     "{C:mult}+4{} Mult"
+  //   ],
+  //   image_url: "img/j_joker.png",
+  //   rarity: "Spectral"
+  // },
 ]
 
-let blinds = []
+let card_modifications = [
+  // {
+  //   name: "Joker",
+  //   text: [
+  //     "{C:mult}+4{} Mult"
+  //   ],
+  //   image_url: "img/j_joker.png",
+  //   rarity: "Enhancement"
+  // },
+  // {
+  //   name: "Joker",
+  //   text: [
+  //     "{C:mult}+4{} Mult"
+  //   ],
+  //   image_url: "img/j_joker.png",
+  //   rarity: "Edition"
+  // },
+  // {
+  //   name: "Joker",
+  //   text: [
+  //     "{C:mult}+4{} Mult"
+  //   ],
+  //   image_url: "img/sticker_example.png",
+  //   rarity: "Seal"
+  // },
+]
+
+let decks = [
+  // {
+  //   name: "Joker",
+  //   text: [
+  //     "{C:mult}+4{} Mult"
+  //   ],
+  //   image_url: "img/j_joker.png",
+  //   rarity: "Deck"
+  // },
+]
+
+let stickers = [
+  // {
+  //   name: "Joker",
+  //   text: [
+  //     "{C:mult}+4{} Mult"
+  //   ],
+  //   image_url: "img/sticker_example.png",
+  //   rarity: "Sticker"
+  // },
+]
+
+let blinds = [
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Voucher"
+  },
+  {
+    name: "Joker",
+    text: [
+      "{C:mult}+4{} Mult"
+    ],
+    image_url: "img/j_joker.png",
+    rarity: "Pack"
+  },
+]
 
 let shop_items = []
 
