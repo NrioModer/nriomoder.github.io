@@ -199,16 +199,7 @@ let stickers = [
      },
 ]
 
-let blinds = [
-     {
-    name: "Sword",
-    text: [
-      "{C:chips,s:1.1}+Between 10 to 60{} Chips." 
-    ],
-    image_url: "img/j_sword.png",
-    rarity: "Common"
-  },
-]
+let blinds = []
 
 let shop_items = []
 
