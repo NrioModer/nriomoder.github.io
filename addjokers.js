@@ -264,8 +264,7 @@ let blinds = [
   {
     name: "The Bully",
     text: [
-      "Add 13 random Temporary",
-      "Stone cards to your deck",
+      "Add 13 random Temporary Stone cards to your deck",
       "{C:inactive}({C:red}2x{C:inactive} Base for {C:attention}$$$$${C:inactive})",
       "{C:inactive}(Appears in Ante 3)"
     ],
