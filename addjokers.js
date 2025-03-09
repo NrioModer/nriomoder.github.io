@@ -171,6 +171,16 @@ let jokers = [
     soul: true,
     rarity: "Legendary"
   },
+  {
+    name: "The Witch",
+    text: [
+       	"Each card in the",
+	"hand is counted"   
+    ],
+    image_url: "img/j_witch.png",
+    soul: true,
+    rarity: "Legendary"
+  },
 ]
 
 // works the same. 
@@ -191,7 +201,21 @@ let stickers = [
      },
 ]
 
-let blinds = []
+
+let blinds = [
+	{
+  		name: "The Bully",
+  		text: [
+    			"Add 13 random Temporary",
+      			"Stone cards to your deck"
+    			"{C:inactive}({C:red}2x{C:inactive} Base for {C:attention}$$$$${C:inactive})",
+    			"{C:inactive}(Appears in Ante 3)"
+  		],
+  		image_url: "img/the_bully.png",
+  		rarity: "Boss Blind"
+	},
+]
+
 
 let shop_items = []
 
