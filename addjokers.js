@@ -188,6 +188,16 @@ let consumables = []
 
 let card_modifications = []
 
+let stickers = [
+     {
+       name: "Temporary",
+       text: [
+          "It's {C:attention}destroyed{} after the blind"
+       ],
+       image_url: "img/sticker_temporary.png",
+       rarity: "Sticker"
+     },
+]
 
 let blinds = [
      {
@@ -211,20 +221,6 @@ let blinds = [
   //   rarity: "Showdown"
   // },
 ]
-
-let stickers = [
-     {
-       name: "Temporary",
-       text: [
-          "It's {C:attention}destroyed{} after the blind"
-       ],
-       image_url: "img/sticker_temporary.png",
-       rarity: "Sticker"
-     },
-]
-
-
-let blinds = []
 
 let shop_items = []
 
