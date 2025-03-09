@@ -171,6 +171,16 @@ let jokers = [
     soul: true,
     rarity: "Legendary"
   },
+  {
+    name: "The Witch",
+    text: [
+       	"Each card in the",
+	"hand is counted"   
+    ],
+    image_url: "img/j_witch.png",
+    soul: true,
+    rarity: "Legendary"
+  },
 ]
 
 // works the same. 
