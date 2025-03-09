@@ -250,21 +250,24 @@ let decks = [
 ]
 
 let stickers = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/sticker_example.png",
-  //   rarity: "Sticker"
-  // },
+     {
+       name: "Temporary",
+       text: [
+          "It's {C:attention}destroyed{} after the blind"
+       ],
+       image_url: "img/sticker_temporary.png",
+       rarity: "Sticker"
+     },
 ]
 
 let blinds = [
   {
     name: "The Bully",
     text: [
-      "{C:mult}+4{} Mult"
+      "Add 13 random Temporary",
+      "Stone cards to your deck",
+      "{C:inactive}({C:red}2x{C:inactive} Base for {C:attention}$$$$${C:inactive})",
+      "{C:inactive}(Appears in Ante 3)"
     ],
     image_url: "img/the_bully.png",
     rarity: "Boss Blind"
